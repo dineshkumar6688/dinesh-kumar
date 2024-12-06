@@ -1,0 +1,19 @@
+.navbar {
+  padding: 13px;
+}
+
+.nav-item {
+  font-size: 18px;
+}
+
+.nav-link:hover{
+  color: white;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+.custom-navbar {
+  background-color: orange;
+}

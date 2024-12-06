@@ -1,0 +1,23 @@
+.about {
+  background-color: #e99c0e5b;
+  font-size: 17px;
+  padding: 30px;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img img {
+  width: 60%;
+}
+
+.about-img {
+  display: flex;
+  justify-content: center;
+}
+.about-desc {
+  text-align: justify;
+}

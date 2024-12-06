@@ -1,0 +1,32 @@
+.skills {
+  overflow-x: hidden;
+}
+
+.row {
+  margin: 0%;
+}
+
+.skills {
+  margin: 20px;
+}
+
+.skill-title {
+  text-align: center;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+.skill-name {
+  margin: 9px;
+}
+
+.skills-card:hover {
+  box-shadow: 2px 2px 2px 2px;
+  scale: 0.95;
+  transition-duration: 0.3s;
+}
