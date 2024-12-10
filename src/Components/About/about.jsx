@@ -3,7 +3,6 @@ import "./about.css";
 import { motion } from "framer-motion";
 
 const About = () => {
-
   const aboutVariants = {
     visible: {
       opacity: 1,
@@ -36,18 +35,15 @@ const About = () => {
             />
           </motion.div>
           <div className="about-desc col-md-8 col-12">
-            Bhavya Bansal embodies the qualities of a versatile and
-            forward-thinking professional in the tech industry. With expertise
-            spanning programming languages, machine learning, data analysis,
-            DevOps practices, and full-stack development, Bhavya is
-            well-equipped to tackle the challenges posed by today's rapidly
-            evolving technological landscape. As organizations increasingly rely
-            on innovative software solutions to drive growth and efficiency,
-            professionals like Bhavya will play a pivotal role in shaping the
-            future of technology through their contributions to artificial
-            intelligence and beyond. With a commitment to continuous learning
-            and adaptation, Bhavya is poised to make significant impacts in the
-            field of software engineering.
+            I am Dinesh Kumar. I have completed MSc in Information Technology
+            from Anna University, Chennai. I has completed two internships,
+            focusing on Node.js and Golang, which provided me with practical
+            experience in backend development. I have worked as a Platform
+            Engineer at Invisibl Cloud for a period of 1 year where I developed
+            UI components using ReactJS and created APIs with Golang for cloud
+            platforms such as AWS, Azure, and GCP. My experience in both
+            frontend and backend technologies enables me to build robust
+            applications that are efficient and scalable.
           </div>
         </div>
       </motion.div>

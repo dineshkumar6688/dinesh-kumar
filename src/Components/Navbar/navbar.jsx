@@ -25,7 +25,7 @@ const Navbar = () => {
             className="navbar-brand"
             href="#home"
           >
-            Bhavya Bansal
+            Dinesh Kumar
           </motion.a>
           <button
             className="navbar-toggler"
@@ -61,11 +61,11 @@ const Navbar = () => {
                   Skills
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#certificates">
                   Certificates
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link" href="#experiences">
                   Experiences

@@ -1,6 +1,6 @@
 import React from "react";
-import ibm from "../../assets/ibm.png";
-import infy from "../../assets/Infosys.png";
+// import ibm from "../../assets/ibm.png";
+// import infy from "../../assets/Infosys.png";
 import "./certificate.css";
 import { motion } from "framer-motion";
 
@@ -29,7 +29,7 @@ const Certificate = () => {
 
   return (
     <div id="certificates">
-      <div className="certificate">
+      {/* <div className="certificate">
         <motion.h2
           variants={certificateVariants}
           initial="hidden"
@@ -400,7 +400,7 @@ const Certificate = () => {
             </div>
           </motion.div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -35,88 +35,69 @@ const WorkExperiences = () => {
                     <h3>Work Experience</h3>
                   </div>
                 </li>
-                <li class="timeline-inverted animate-box">
-                  <div class="timeline-badge">
-                    <i class="fa-solid fa-suitcase"></i>
-                  </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h3 class="timeline-title">Chief Technology Officer</h3>
-                      <span class="company">
-                        Persist Ventures - Apr 2024 - Present
-                      </span>
-                    </div>
-                    <div class="timeline-body">
-                      <p>Full Time</p>
-                    </div>
-                  </div>
-                </li>
+
                 <li class="animate-box timeline-unverted">
                   <div class="timeline-badge">
                     <i class="fa-solid fa-suitcase"></i>
                   </div>
                   <div class="timeline-panel">
                     <div class="timeline-heading">
-                      <h3 class="timeline-title">CTO @FacesearchAI</h3>
+                      <h3 class="timeline-title">Platform Engineer</h3>
                       <span class="company">
-                        Persist Ventures - Nov 2023 - Present
+                        Invisibl Cloud - Jul 2022 - May 2023
                       </span>
                     </div>
                     <div class="timeline-body">
-                      <p>FullTime</p>
-                    </div>
-                  </div>
-                </li>
-                <li class="timeline-inverted animate-box">
-                  <div class="timeline-badge">
-                    <i class="fa-solid fa-suitcase"></i>
-                  </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h3 class="timeline-title">Full Stack Engineer</h3>
-                      <span class="company">
-                        Persist Ventures - Oct 2023 - Present
-                      </span>
-                    </div>
-                    <div class="timeline-body">
-                      <p>Full Time</p>
-                    </div>
-                  </div>
-                </li>
-                <li class="animate-box timeline-unverted">
-                  <div class="timeline-badge">
-                    <i class="fa-solid fa-suitcase"></i>
-                  </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h3 class="timeline-title">AI Software Developer</h3>
-                      <span class="company">
-                        HeyDaw Technologies - Aug 2023 - Oct 2023
-                      </span>
-                    </div>
-                    <div class="timeline-body">
-                      <p>Internship</p>
-                    </div>
-                  </div>
-                </li>
-                <li class="timeline-inverted animate-box">
-                  <div class="timeline-badge">
-                    <i class="fa-solid fa-suitcase"></i>
-                  </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h3 class="timeline-title">Software Engineer</h3>
-                      <span class="company">
-                        Telaverge Communications - May 2022 - Apr 2023
-                      </span>
-                    </div>
-                    <div class="timeline-body">
-                      <p>Internship</p>
+                      <p>
+                        Developed API’s for major cloud services such as Azure,
+                        AWS, and GCP and multiple UI components for the Gravity
+                        platform using ReactJS.
+                      </p>
                     </div>
                   </div>
                 </li>
 
                 <br />
+                <li class="timeline-heading text-center animate-box">
+                  <div>
+                    <h3>Internship</h3>
+                  </div>
+                </li>
+
+                <li class="timeline-inverted animate-box">
+                  <div class="timeline-badge">
+                    <i class="fa-solid fa-suitcase"></i>
+                  </div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3 class="timeline-title">Backend API Developer</h3>
+                      <span class="company">
+                        Invisibl Cloud - Feb 2022 - Jun 2022
+                      </span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Developed API for AWS cloud services using Golang.</p>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="animate-box timeline-unverted">
+                  <div class="timeline-badge">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                  </div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3 class="timeline-title"> Backend Developer</h3>
+                      <span class="company">
+                        Credence Analytics - Jul 2020 - Dec 2020
+                      </span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Worked on Integrated Treasury Management System</p>
+                      <p>Developed using NodeJS and VueJS</p>
+                    </div>
+                  </div>
+                </li>
                 <li class="timeline-heading text-center animate-box">
                   <div>
                     <h3>Education</h3>
@@ -128,13 +109,43 @@ const WorkExperiences = () => {
                   </div>
                   <div class="timeline-panel">
                     <div class="timeline-heading">
-                      <h3 class="timeline-title">Graduation</h3>
-                      <span class="company">
-                        Dr. A.P.J Abdul kalam Technical University
-                      </span>
+                      <h3 class="timeline-title">
+                        Msc, Information Technology
+                      </h3>
+                      <h3 class="timeline-title">5 years Integrated</h3>
+                      <span class="company">Anna University, CEG</span>
                     </div>
                     <div class="timeline-body">
-                      <p>Bachelor of Technology - B.Tech, Computer Science</p>
+                      <p>Completion Percentage: 7.90</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted animate-box">
+                  <div class="timeline-badge">
+                    <i class="fa-solid fa-suitcase"></i>
+                  </div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3 class="timeline-title">HSC</h3>
+                      <span class="company">Velammal, Mogappair</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Completion Percentage: 92.90%</p>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="animate-box timeline-unverted">
+                  <div class="timeline-badge">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                  </div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3 class="timeline-title">SSLC</h3>
+                      <span class="company">Nazareth, Avadi</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Completion Percentage: 94.80%</p>
                     </div>
                   </div>
                 </li>

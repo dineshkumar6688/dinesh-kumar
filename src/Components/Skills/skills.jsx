@@ -1,20 +1,19 @@
 import React from "react";
-import dataanalytics from "../../assets/data-analytics.png";
-import chatgpt from "../../assets/chatgpt.png";
-import nlp from "../../assets/nlp.png";
-import swagger from "../../assets/swagger.png";
-import k8s from "../../assets/kubernetes.png";
-import docker from "../../assets/docker.png";
-import jenkins from "../../assets/jenkins.png";
-import azure from "../../assets/azure.png";
-import mongodb from "../../assets/mongodb.png";
-import linux from "../../assets/linux.png";
-import python from "../../assets/python.png";
-import c from "../../assets/c.png";
-import cplus from "../../assets/c++.png";
-import sql from "../../assets/sql.png";
-import "./skills.css";
 import { motion } from "framer-motion";
+import python from "../../assets/python.png";
+import html from "../../assets/html.png";
+import css from "../../assets/css.png";
+import js from "../../assets/js.png";
+import bootstrap from "../../assets/bootstrap.png";
+import react from "../../assets/react.png";
+import tailwind from "../../assets/tailwind.png";
+import redux from "../../assets/redux.png";
+import flutter from "../../assets/flutter.png";
+import mysql from "../../assets/mysql.png";
+import postgres from "../../assets/postgres.png";
+import mongodb from "../../assets/mongodb.png";
+import github from "../../assets/github.png";
+import "./skills.css";
 
 const Skills = () => {
   const skillsVariants = {
@@ -76,55 +75,123 @@ const Skills = () => {
           <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
             <div className="skills-card card">
               <div className="card-body">
-                <img src={nlp} width="100" alt="nlp" />
-                <span className="skill-name">Natural Language Processing</span>
+                <img src={python} width="100" alt="python" title="python" />
+                <span className="skill-name">Python</span>
               </div>
             </div>
           </div>
           <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
             <div className="skills-card card">
               <div className="card-body">
-                <img src={swagger} width="100" alt="swagger" />
-                <span>Swagger</span>
+                <img src={html} width="100" alt="html" title="html" />
+                <span>HTML</span>
               </div>
             </div>
           </div>
           <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
             <div className="skills-card card">
               <div className="card-body">
-                <img src={k8s} width="100" alt="k8s" />
-                <span>Kubernetes</span>
+                <img src={css} width="100" alt="css" title="css" />
+                <span>CSS</span>
               </div>
             </div>
           </div>
           <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
             <div className="skills-card card">
               <div className="card-body">
-                <img src={docker} width="100" alt="docker" />
-                <span>Docker</span>
+                <img src={js} width="100" alt="JavaScript" title="JavaScript" />
+                <span>JavaScript</span>
               </div>
             </div>
           </div>
           <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
             <div className="skills-card card">
               <div className="card-body">
-                <img src={jenkins} width="100" alt="jenkins" />
-                <span>Jenkins</span>
+                <img
+                  src={bootstrap}
+                  width="100"
+                  alt="BootStrap"
+                  title="BootStrap"
+                />
+                <span>BootStrap</span>
               </div>
             </div>
           </div>
           <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
             <div className="skills-card card">
               <div className="card-body">
-                <img src={azure} width="100" alt="azure" />
-                <span>Azure</span>
+                <img src={react} width="100" alt="React" title="ReactJS" />
+                <span>ReactJS</span>
               </div>
             </div>
           </div>
           <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
             <div className="skills-card card">
               <div className="card-body">
-                <img src={mongodb} width="100" alt="mongodb" />
+                <img
+                  src={tailwind}
+                  width="100"
+                  alt="Tailwind"
+                  title="Tailwind"
+                />
+                <span>Tailwind</span>
+              </div>
+            </div>
+          </div>
+          <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
+            <div className="skills-card card">
+              <div className="card-body">
+                <img src={redux} width="100" alt="Redux" title="Redux" />
+                <span>Redux</span>
+              </div>
+            </div>
+          </div>
+          <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
+            <div className="skills-card card">
+              <div className="card-body">
+                <img src={flutter} width="100" alt="Flutter" title="Flutter" />
+                <span>Flutter</span>
+              </div>
+            </div>
+          </div>
+          <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
+            <div className="skills-card card">
+              <div className="card-body">
+                <img
+                  src={react}
+                  width="100"
+                  alt="ReactNative"
+                  title="ReactNative"
+                />
+                <span>ReactNative</span>
+              </div>
+            </div>
+          </div>
+          <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
+            <div className="skills-card card">
+              <div className="card-body">
+                <img src={mysql} width="100" alt="MySQL" title="MySQL" />
+                <span>MySQL</span>
+              </div>
+            </div>
+          </div>
+          <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
+            <div className="skills-card card">
+              <div className="card-body">
+                <img
+                  src={postgres}
+                  width="100"
+                  alt="Postgres"
+                  title="Postgres"
+                />
+                <span>Postgres</span>
+              </div>
+            </div>
+          </div>
+          <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
+            <div className="skills-card card">
+              <div className="card-body">
+                <img src={mongodb} width="100" alt="MongoDB" title="MongoDB" />
                 <span>MongoDB</span>
               </div>
             </div>
@@ -132,56 +199,8 @@ const Skills = () => {
           <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
             <div className="skills-card card">
               <div className="card-body">
-                <img src={linux} width="100" alt="linux" />
-                <span>Linux</span>
-              </div>
-            </div>
-          </div>
-          <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
-            <div className="skills-card card">
-              <div className="card-body">
-                <img src={python} width="100" alt="python" />
-                <span>Python</span>
-              </div>
-            </div>
-          </div>
-          <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
-            <div className="skills-card card">
-              <div className="card-body">
-                <img src={c} width="100" alt="c" />
-                <span>C</span>
-              </div>
-            </div>
-          </div>
-          <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
-            <div className="skills-card card">
-              <div className="card-body">
-                <img src={cplus} width="100" alt="c++" />
-                <span>C++</span>
-              </div>
-            </div>
-          </div>
-          <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
-            <div className="skills-card card">
-              <div className="card-body">
-                <img src={sql} width="100" alt="sql" />
-                <span>SQL</span>
-              </div>
-            </div>
-          </div>
-          <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
-            <div className="skills-card card">
-              <div className="card-body">
-                <img src={chatgpt} width="100" alt="chatgpt" />
-                <span>ChatGPT</span>
-              </div>
-            </div>
-          </div>
-          <div className="col col-sm-6 col-md-4 col-lg-3 my-1">
-            <div className="skills-card card">
-              <div className="card-body">
-                <img src={dataanalytics} width="100" alt="dataanalytics" />
-                <span>Data Analytics</span>
+                <img src={github} width="100" alt="GitHub" title="GitHub" />
+                <span>GitHub</span>
               </div>
             </div>
           </div>

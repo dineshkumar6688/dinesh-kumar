@@ -32,7 +32,12 @@
   right: 0;
 }
 
-.toparrow:hover{
+.toparrow:hover {
   background-color: gray;
   color: white;
+}
+
+.linkedin:hover {
+  cursor: pointer;
+  color: gray;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import myCto from "../../assets/cto.png";
+import frontEnd from "../../assets/frontend.png";
 import { motion } from "framer-motion";
 import "./home.css";
 
@@ -19,11 +19,11 @@ const Home = () => {
                 >
                   <div className="row">
                     <h1>
-                      I'M <span className="title">Bhavya Bansal</span>
+                      I'M <span className="title">Dinesh Kumar</span>
                     </h1>
                   </div>
                   <div className="row mb-4">
-                    <h2>Chief Technology Officer</h2>
+                    <h2>Frontend Developer</h2>
                   </div>
                   <motion.button
                     whileHover={{ scale: 1.1 }}
@@ -42,7 +42,7 @@ const Home = () => {
                 transition={{ duration: 0.5 }}
                 className="col-md-6"
               >
-                <img width="100%" src={myCto} alt="" />
+                <img width="100%" src={frontEnd} alt="" />
               </motion.div>
             </div>
           </div>
