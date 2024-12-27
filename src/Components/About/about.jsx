@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import { motion } from "framer-motion";
+import dk from '../../assets/dk.jpg'
 
 const About = () => {
   const aboutVariants = {
@@ -30,7 +31,7 @@ const About = () => {
           >
             <img
               width="80%"
-              src="https://media.licdn.com/dms/image/v2/D5603AQE1zhvoksEtgw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723828613838?e=1737590400&v=beta&t=CTOg_uNReDV7Hyyd5lsHM7JC4W0I-Urg46CUJvOpXRs"
+              src={dk}
               alt="Bhavya Bansal"
             />
           </motion.div>
